@@ -33,7 +33,26 @@ main{
     
     height: 600px;
 }
+h3{
+  background-color: #313766 ;
+  padding: 7px;
+  width: fit-content;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  color: #f0f0f0;
+  
+}
 
+.textboxs{
+  background-color: #313766;
+  color: #f0f0f0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  width: 75%;
+  padding-right: 10px;
+  
+  
+}
 .dropbtn {
     background-color: #161f24;
     color: white;
