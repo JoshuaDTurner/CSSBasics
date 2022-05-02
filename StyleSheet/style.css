@@ -1,10 +1,19 @@
+/*
+  My color family is white and blue, I used blue as a sign of trust, loyalty, and competence,
+  because if your are hiring someone youd want them to be competent and not betray the companys
+  interest by sabatoge. i used white for honesty, because its wouldnt be fun to have a pathalogical
+  liar working for you
+*/
+
 body {
+    /* Used to set a height based on the screan and use, set color to background, and to leave no blank space between header and margin */
     margin: 0;
     background-color: #f0f0f0;
     height: 100vh;
 }
 
 header{
+  /* sets the header shape and lets items be placed with in it without problems, and setting the color of the background */
     background-color: #161f24 ;
     width: 100%;
     height: 150px;
@@ -12,6 +21,7 @@ header{
 }
 
 h1{
+  /* Places the title in the middle of the header, sets color to text, creates font family, and typography */
     color: #f0f0f0;
     display: inline;
     text-align: center;
@@ -21,7 +31,8 @@ h1{
     font-family: serif, sans-serif;
     letter-spacing:1px;
 }
-p{
+h4{
+  /* set color, typography and location */
   padding-left: 20px;
   color: #F1F1F1;
   font-size: 24px;
@@ -29,11 +40,13 @@ p{
   line-height: 33px;
 }
 main{
+  /* makes sure there is no blank space */
     background-size: cover;
     height: max-content;
 }
 
 h3{
+  /* Places the title in the middle of the header, sets color to text, creates font family, and typography */
   background-color: #313766 ;
   padding: 7px;
   padding-right: 25px;
@@ -45,6 +58,7 @@ h3{
 }
 
 .images{
+  /* sets shape and background for the images and lists */
   background-color: #313766;
   height: max-content;
   width: max-content;
@@ -55,11 +69,13 @@ h3{
 }
 
 img{
+  /* seperates the two images */
   padding: 20px;
   align-self: center;
 }
 
 .textboxs{
+  /* creates background, sets typography, and text color */
   background-color: #313766;
   color: #f0f0f0;
   padding-top: 50px;
@@ -71,55 +87,59 @@ img{
   letter-spacing: 0.5px; 
   line-height: 33px;
 }
-.dropbtn {
-    background-color: #1F2833;
-    color: white;
-    padding: 16px;
-    font-size: 2vw;
-    border: none; 
-  }
-  
-  .dropdown {
-    position:relative;
-    display: inline-block;
-    padding-top: 3%; 
-    padding-left: 5%; 
-    align-content: center;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+
+.dropbtn{
+  /* creats the image for the button */
+  background-color: #1F2833;
+  color: white;
+  padding: 16px;
+  font-size: 2vw;
+  border: none; 
+}
+.dropdown{
+  /* creates the button that can be interacted with */
+  position:relative;
+  display: inline-block;
+  margin-left: 100px;
+  height: min-content;
+  width: min-content;
+
+}
+
+.dropdown-content {
+  /* creates the background for the links */
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  /* creates the text and link for the dropdown menu */
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content, .dropdown:focus{
+    /* creates the hover effect */
     display: block;
   }
-  
-  .dropdown-content a:hover, .dropdown-content a:focus {
-      background-color: #ddd;
-    }
-  
- 
-  .dropdown:hover .dropdown-content, .dropdown:focus .dropdown-content {
-      display: block;
-    }
-  
-  
-  .dropdown:hover .dropbtn, .dropdown:focus .dropbtn {
-      background-color: #171924;
-    }
+
 
 footer{
+  /* sets up size and color of footer */
   background-color:#161f24;
   display: block;
   height: 100px;
   margin-top: 100px;
+}
+li{
+  /* sets color and typography of the lists */
+  color: #f0f0f0;
+  font-size: 16px;
+  letter-spacing:1px;
 }
